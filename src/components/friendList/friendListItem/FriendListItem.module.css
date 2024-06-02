@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  background-color: white;
+  box-shadow: 1px 2px 3px 1px #a0a0a0ac;
+  padding: 10px 20px;
+}
+.online {
+  width: 8px;
+  height: 8px;
+  background-color: #3bd100;
+  border-radius: 50%;
+}
+.offline {
+  width: 8px;
+  height: 8px;
+  background-color: #d10000;
+  border-radius: 50%;
+}
+.avatar {
+}
+.name {
+  font-weight: 700;
+  margin-right: 80px;
+}

@@ -1,0 +1,12 @@
+.section_friend_list {
+  display: flex;
+  justify-content: end;
+  margin: 50px auto;
+  padding-right: 40px;
+}
+.friend_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}

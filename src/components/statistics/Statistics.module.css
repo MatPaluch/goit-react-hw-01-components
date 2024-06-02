@@ -1,6 +1,7 @@
-.statistics {
+.section_statistics {
   display: flex;
   justify-content: center;
+  margin: 50px auto;
 }
 .title {
   background-color: var(--WHITE);

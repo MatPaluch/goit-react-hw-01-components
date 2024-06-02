@@ -22,7 +22,7 @@ export default class Statistics extends Component {
   render() {
     return (
       <>
-        <section className={Styles.statistics}>
+        <section className={Styles.section_statistics}>
           <div>
             {this.props.title ? (
               <h2 className={Styles.title}>{this.props.title}</h2>
