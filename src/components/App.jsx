@@ -10,6 +10,9 @@ import data from "./statistics/data.json";
 import friends from "./friendList/friends.json";
 import transactions from "./transactionHistory/transactions.json";
 
+//Import  normalizaji stylów ⬎
+import "./App.css";
+
 function App() {
   return (
     <>
