@@ -1,5 +1,3 @@
-import Style from "./App.module.css";
-
 // Importowane komponenty ⬎
 import Profile from "./profile/Profile";
 import Statistics from "./statistics/Statistics";

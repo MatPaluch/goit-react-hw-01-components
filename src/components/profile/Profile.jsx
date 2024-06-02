@@ -1,6 +1,7 @@
 import { Component } from "react";
 import PropTypes from "prop-types";
 import styles from "./Profile.module.css";
+import Style from "../App.module.css";
 
 export default class Profile extends Component {
   static defaultProps = {};
@@ -19,7 +20,7 @@ export default class Profile extends Component {
 
   render() {
     return (
-      <section className={styles.section_profile}>
+      <section className={styles.section_profile + styles}>
         <div className={styles.profile}>
           <div className={styles.description}>
             <img
