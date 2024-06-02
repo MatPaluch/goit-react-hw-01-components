@@ -20,7 +20,7 @@ export default class Profile extends Component {
 
   render() {
     return (
-      <section className={styles.section_profile + styles}>
+      <section className={styles.section_profile + Style}>
         <div className={styles.profile}>
           <div className={styles.description}>
             <img
