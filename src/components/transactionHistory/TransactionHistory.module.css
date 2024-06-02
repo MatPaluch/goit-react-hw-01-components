@@ -5,10 +5,8 @@
 }
 
 table {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
   width: 700px;
-  border-spacing: 0px;
   box-shadow: 1px 1px 6px 1px grey;
 }
 th {
@@ -28,4 +26,10 @@ tr {
 }
 tbody > tr:nth-child(even) {
   background-color: #ecf1f4;
+}
+tbody > tr:last-child > td:first-child {
+  border-bottom-left-radius: 6px;
+}
+tbody > tr:last-child > td:last-child {
+  border-bottom-right-radius: 6px;
 }
