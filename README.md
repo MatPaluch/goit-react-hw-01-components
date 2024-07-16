@@ -1,6 +1,6 @@
-https://matpaluch.github.io/goit-react-hw-01-components/
+# My first steps in REACT creating components
 
-# React + Vite
+# This PROJECT is using React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
